@@ -2,8 +2,8 @@
 Explain why you chose star schema over snowflake.
 I chose the Star Schema because it is easy to understand and faster to use. The questions, most, are answered by joining the main Fact table to the dimension tables, compared to the Snowflake Schema that needs more joins, which make it slower.
 In this case, it is done by joining the Sales table to the dimension tables.
-<<<<<<< HEAD
-![Star Schema Diagram](Data_Warehousing/schema/sales.draw.png)
+=======
+![Star Schema Diagram](Data_Warehousing/schema/Sales.drawio.png)
 
 Task 2:
 1. Data Extraction and Cleaning
@@ -176,8 +176,6 @@ The ETL process and the Star Schema design are closely connected. The dimension 
 Note: The database contains a system table named sqlite_sequence automatically created by SQLite. This table is not part of the ETL schema and can be ignored
 
 -----------------------------------------------------------------
-
------------------------------------------------------------------
 📊 Sales Data Analysis Report: Insights and Decision Support
 Key Insights from the Sales Data
 The analysis of the retail sales data reveals a highly concentrated sales performance, as clearly shown in the Total Sales by Country bar chart .
@@ -200,7 +198,5 @@ Strategic Resource Allocation: The huge concentration of sales in the UK suggest
 Market Expansion: The sales figures for other countries like the Netherlands and Germany can guide targeted expansion strategies. These countries show a proven, albeit smaller, market presence and may justify additional investment to boost sales.
 
 Inventory and Merchandising: The Product Dimension and the "Electronics" sales slice ($908,000) help the purchasing team know which product categories are most successful. This supports decisions on which items to stock heavily and which products to feature in promotions.
-=======
-![Star Schema Diagram](Data_Warehousing/schema/Sales.drawio.png)
 
->>>>>>> 5514bd30c4913b94a7e1e119a049957279b168ec
+
