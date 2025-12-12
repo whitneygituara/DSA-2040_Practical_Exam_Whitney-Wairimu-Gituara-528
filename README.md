@@ -220,3 +220,14 @@ Finally, the reports demonstrate the effectiveness of the ETL process and Star S
 Self-Assessment
 
 This repository demonstrates a complete and well-executed attempt at the DSA-2040 Practical Exam. I successfully implemented all data warehousing tasks, including extraction, cleaning, transformation, and loading into a Star Schema in SQLite. The data mining tasks—K-Means clustering, Decision Tree classification, and KNN comparison—were fully implemented with clear visualizations and metrics. All code is modular, well-commented, and reproducible, showcasing a strong understanding of practical data analysis and machine learning techniques.
+
+## Visualizations & Outputs
+
+This section showcases key outputs and visualizations generated during the practical exam.
+
+### Pairplot of Scaled Features
+![Pairplot](C:\Users\Admin\OneDrive\Documents\USIU\Datawarehousing\EndSemExam\DSA-2040_Practical_Exam_Whitney-Wairimu-Gituara-528\Data_Mining\Preprocessing\Preprocessing_plots/Pairplot_Species_Separation.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](C:\Users\Admin\OneDrive\Documents\USIU\Datawarehousing\EndSemExam\DSA-2040_Practical_Exam_Whitney-Wairimu-Gituara-528\Data_Mining\Preprocessing\Preprocessing_plots/Correlation_Heatmap.png)
+
