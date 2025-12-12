@@ -88,14 +88,16 @@ df_viz = X_scaled_df.copy()
 df_viz['species'] = y_target
 plt.figure(figsize=(10, 10))
 sns.pairplot(df_viz, hue='species', diag_kind='kde')
-plt.suptitle('Pairplot of Scaled Features by Species', y=1.02)
-plt.show() # 
+plt.suptitle('Pairplot of Scaled Features by Synthetic Species', y=1.02)
+plt.savefig('Pairplot_Species_Separation.png') 
+plt.show()
 
 # 3. Visualize: Correlation Heatmap
 plt.figure(figsize=(8, 6))
 correlation_matrix = X_data.corr()
 sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", linewidths=.5)
-plt.title('Feature Correlation Heatmap (Raw Data)')
+plt.title('Feature Correlation Heatmap (Raw Data)') # Added clear title
+plt.savefig('Correlation_Heatmap.png') 
 plt.show()
 
 # 4. Identify Potential Outliers (Boxplots)
@@ -103,6 +105,8 @@ plt.figure(figsize=(12, 5))
 X_data.boxplot(column=feature_names)
 plt.title('Boxplots to Identify Outliers')
 plt.ylabel('Feature Value (cm)')
+plt.grid(axis='y', linestyle='--')
+plt.savefig('Boxplot_Outliers.png')
 plt.show() # 
 
 # =================================================================
