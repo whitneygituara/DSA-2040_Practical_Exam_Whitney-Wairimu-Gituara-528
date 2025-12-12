@@ -1,0 +1,11 @@
+
+Top Rule Analysis:
+
+Rule: ['juice', 'onion'] -> ['eggs']
+Support: 0.10
+Confidence: 0.60
+Lift: 3.60
+
+Implications: This rule suggests that customers who buy ['juice', 'onion'] are 
+likely to also buy ['eggs']. Retailers can use this information for 
+cross-selling strategies, product placement, and targeted promotions to increase sales.

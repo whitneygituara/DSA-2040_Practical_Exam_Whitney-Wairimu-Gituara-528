@@ -1,0 +1,16 @@
+The K-Means clustering algorithm performed strongly on the synthetic Iris-like dataset.
+Using k=3, the Adjusted Rand Index (ARI) was high, showing strong agreement between the 
+predicted clusters and the true species labels. This is expected because the synthetic data 
+were generated from well-separated Gaussian distributions, making the clusters naturally 
+distinct. The scatter plot of petal length versus petal width shows clear groupings with 
+minimal overlap, further confirming the quality of clustering.
+
+Experimenting with k=2 and k=4 revealed that both values produce inferior clustering, as 
+shown by their lower ARI scores. The elbow curve strongly supports k=3 as the optimal 
+choice, where the reduction in SSE begins to taper off. Misclassifications were minimal 
+and mostly occurred where cluster boundaries are closer together.
+
+In real-world applications, K-Means clustering is widely used for customer segmentation, 
+market analysis, fraud detection, and medical pattern identification. However, the strong 
+results here are partly due to the synthetic nature of the data, which is more ideal and 
+less noisy than real-world datasets.
