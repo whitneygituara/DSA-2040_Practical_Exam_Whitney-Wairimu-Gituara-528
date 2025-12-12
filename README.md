@@ -231,3 +231,4 @@ This section showcases key outputs and visualizations generated during the pract
 ### Correlation Heatmap
 ![Correlation Heatmap](C:\Users\Admin\OneDrive\Documents\USIU\Datawarehousing\EndSemExam\DSA-2040_Practical_Exam_Whitney-Wairimu-Gituara-528\Data_Mining\Preprocessing\Preprocessing_plots/Correlation_Heatmap.png)
 
+All are in the folders images
