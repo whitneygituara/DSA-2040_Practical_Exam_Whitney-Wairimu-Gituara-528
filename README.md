@@ -216,3 +216,7 @@ For the retail sales data, the ETL process produced clean and structured tables 
 Customer analysis was conducted using the Customer Dimension table, aggregating total purchases and total sales per customer. This allows for effective customer segmentation, loyalty program planning, and personalized marketing. The combination of fact and dimension tables in the Star Schema enables fast and efficient querying of sales data across different dimensions, including customer, product, time, and location.
 
 Finally, the reports demonstrate the effectiveness of the ETL process and Star Schema design in supporting business decision-making. By transforming raw data into a clean, structured, and enriched data warehouse, analysts can generate reliable insights, visualize trends, and make informed strategic decisions. The inclusion of synthetic data for clustering and classification also provides a clear learning example for beginners to understand machine learning workflows and interpret model outputs.
+
+Self-Assessment
+
+This repository demonstrates a complete and well-executed attempt at the DSA-2040 Practical Exam. I successfully implemented all data warehousing tasks, including extraction, cleaning, transformation, and loading into a Star Schema in SQLite. The data mining tasks—K-Means clustering, Decision Tree classification, and KNN comparison—were fully implemented with clear visualizations and metrics. All code is modular, well-commented, and reproducible, showcasing a strong understanding of practical data analysis and machine learning techniques.
